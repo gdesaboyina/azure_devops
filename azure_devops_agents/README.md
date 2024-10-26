@@ -33,7 +33,7 @@ export AZP_TOKEN="mysecretazuredevopspattoken"  # This should have permissions t
 
 ### copy file contents to docker-compose.yaml in your favorite directory
 
-```
+```yaml
 name: ${PROJECT}
 services:
   oci-azdo-agent:
@@ -48,8 +48,9 @@ services:
       replicas: 3
       
 ```
+
 ### bring up the containers using
 
 ```bash
 docker-compose up -d
-``
+```

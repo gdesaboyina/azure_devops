@@ -48,3 +48,8 @@ services:
       replicas: 3
       
 ```
+### bring up the containers using
+
+```bash
+docker-compose up -d
+``

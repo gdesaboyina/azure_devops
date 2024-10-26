@@ -51,7 +51,6 @@ services:
 
 ### bring up the containers using
 
-
 ```bash
 docker-compose up -d
 ```
